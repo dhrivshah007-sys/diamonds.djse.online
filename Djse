@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJSÉ Diamonds - Luxury CVD Diamonds</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="DJSÉ Diamonds Logo" class="logo-img">
+                <h1>DJSÉ</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Luxury CVD Diamonds</h2>
+            <p>Experience the brilliance of lab-created excellence</p>
+            <button class="cta-btn">Explore Collection</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Our Collections</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Diamond Rings</h3>
+                    <p>Exquisite diamond rings crafted with precision and elegance.</p>
+                    <a href="#contact" class="btn">Inquire</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Diamond Necklaces</h3>
+                    <p>Stunning necklaces that capture light and elegance.</p>
+                    <a href="#contact" class="btn">Inquire</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Diamond Earrings</h3>
+                    <p>Timeless earrings that complement any style.</p>
+                    <a href="#contact" class="btn">Inquire</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Custom Designs</h3>
+                    <p>Create your perfect diamond piece with our custom design service.</p>
+                    <a href="#contact" class="btn">Inquire</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About DJSÉ Diamonds</h2>
+            <p>We specialize in premium CVD (Chemical Vapor Deposition) lab-created diamonds that offer exceptional quality, sustainability, and ethical sourcing. Our diamonds are virtually identical to mined diamonds but offer better value and environmental benefits.</p>
+            <div class="features">
+                <div class="feature">
+                    <h4>Certified Quality</h4>
+                    <p>All diamonds certified for authenticity and quality</p>
+                </div>
+                <div class="feature">
+                    <h4>Sustainable</h4>
+                    <p>Lab-created diamonds with zero mining impact</p>
+                </div>
+                <div class="feature">
+                    <h4>Expert Craftsmanship</h4>
+                    <p>Master jewelers with years of experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2>Blog & News</h2>
+            <div class="blog-grid">
+                <article class="blog-post">
+                    <h3>Understanding CVD Diamonds</h3>
+                    <p class="date">February 19, 2026</p>
+                    <p>Learn everything you need to know about lab-created CVD diamonds and why they're changing the jewelry industry...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+                <article class="blog-post">
+                    <h3>Diamond Care & Maintenance</h3>
+                    <p class="date">February 12, 2026</p>
+                    <p>Tips and tricks to keep your diamond jewelry looking brilliant for years to come...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+                <article class="blog-post">
+                    <h3>Choosing the Perfect Diamond</h3>
+                    <p class="date">February 5, 2026</p>
+                    <p>A guide to understanding the 4 Cs and selecting the ideal diamond for your needs...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>Have questions? We'd love to hear from you!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 DJSÉ Diamonds. All rights reserved.</p>
+            <p>Specializing in premium CVD lab-created diamonds | diamonds.djse.online</p>
+        </div>
+    </footer>
+</body>
+</html>
